@@ -25,7 +25,13 @@ const Navbar = () => {
           }}
         />
       </Link>
-      <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
+      <Stack
+        direction="row"
+        gap="40px"
+        fontSize="24px"
+        fontFamily="Alegreya"
+        alignItems="flex-end"
+      >
         <Link
           to="/"
           style={{
